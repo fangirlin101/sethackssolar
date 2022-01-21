@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <html lang=”en”>
+    <html>
+        <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+        <title>
+            Name on tab
+        </title>
+        <script>
+            function calculate()
+            {
+                let nume=document.querySelector('#num').value;
+                document.querySelector('#result').innerHTML= "The amount per country would be "+(5000*10000*100000/nume) + " US dollars.";
+            }
+        </script>
+        </head>
+        <body>
+
+            <div class="text-center"; >
+                <div style="background-color:#00204B; color:white;">
+                    <h1>
+                Calculate amount per country!
+            </h1>
+            <br>
+            <br>
+            <h4>
+                Enter the amount of countries that would be willing to invest in this project to get an esrimate of how much
+                it would cost per head to fund this project, given that each country puts forth an equal amount of money.
+            </h4>
+            <br>
+            <br>
+
+                 <form onsubmit="calculate(); return false;">
+                num: <input type="number" name="num" id="num"> <br><br>
+                <br>
+                <input type="submit">
+
+            </form>
+<br>
+<br>
+            <h5 id="result">
+              Your result will be displayed here!
+            </h5>
+            <br>
+<br>
+
+        <br>
+<br>
+
+        <br>
+<br>
+
+        <br>
+<br>
+
+        <br>
+<br>
+
+            </div>
+            </div>
+
+
+
+
+        </body>
+    </html>
